@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "typeRoots": ["./node_modules/@types", "src/@types/*"],
+    "noEmit": true
+  },
+  "ts-node": {  "files": true },
+  "include": [
+    "src/@types",
+    "src/**/*",
+  ]
+}
